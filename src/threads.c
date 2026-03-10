@@ -47,6 +47,8 @@
 
 #ifdef USE_THREADS
 
+int		nproc;
+
 /******* threads_gate_init ***************************************************
 PROTO	threads_gate_t *threads_gate_init(int nthreads, void (*func)(void))
 PURPOSE	Create a new gate.

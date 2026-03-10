@@ -129,7 +129,7 @@ typedef struct _threads_gate_t
   } threads_gate_t;
 
 /*----------------------------- Global variables ----------------------------*/
- int		nproc;	/* Number of child threads */
+extern int	nproc;	/* Number of child threads */
 
 /*--------------------------------- Functions -------------------------------*/
 threads_gate_t	*threads_gate_init(int nthreads, void (*func)(void));

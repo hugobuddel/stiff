@@ -42,6 +42,9 @@
 #include	"fitscat_defs.h"
 #include	"fitscat.h"
 
+int		bswapflag;
+char		gstr[MAXCHAR];
+
 /****** about_cat **************************************************************
 PROTO	int about_cat(catstruct *cat, FILE *stream)
 PURPOSE	Print some info about a catalog.

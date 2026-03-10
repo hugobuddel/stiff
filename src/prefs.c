@@ -50,6 +50,8 @@
 #include 	"prefs.h"
 #include	"preflist.h"
 
+prefstruct	prefs;
+
 /********************************* dumpprefs ********************************/
 /*
 Print the default preference parameters.

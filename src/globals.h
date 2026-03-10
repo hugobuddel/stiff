@@ -29,7 +29,7 @@
 #include	"types.h"
 
 /*----------------------- miscellaneous variables ---------------------------*/
-char		gstr[MAXCHAR];
+extern char	gstr[MAXCHAR];
 
 /*------------------------------- functions ---------------------------------*/
 extern double	counter_seconds();

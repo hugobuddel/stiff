@@ -86,7 +86,7 @@ typedef	unsigned char	BYTE;			/* a byte */
 typedef	int		LONG;			/* for DEC-Alpha... */
 	
 /*----------------------------- Internal constants --------------------------*/
-char		gstr[MAXCHAR];
+extern char	gstr[MAXCHAR];
 
 /*----------------------------- External constants --------------------------*/
 
